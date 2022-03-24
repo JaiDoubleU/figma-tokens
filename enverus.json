@@ -4,17 +4,17 @@
        "green": {
           "50": {
             "value": "#eaf5e5",
-            "type": "color"
+            "type": "color",
             "darkContrast": true
          },
          "100": {
             "value": "#cae5bf",
-            "type": "color"
+            "type": "color",
             "darkContrast": true
          },
          "200": {
            "value": "#a6d495",
-            "type": "color"
+            "type": "color",
             "darkContrast": true
          }    
       }
