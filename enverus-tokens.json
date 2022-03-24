@@ -1324,5 +1324,19 @@
         }
       }
     }
+  },
+  "light": {
+    "button": {
+      "primary": {
+        "bg": {
+          "value": "{colors.green.300}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
+    }
   }
 }
