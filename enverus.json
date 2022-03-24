@@ -14,9 +14,64 @@
          },
          "200": {
            "value": "#a6d495",
-            "type": "color",
-            "darkContrast": true
-         }    
+           "type": "color",
+           "darkContrast": true
+         },
+         "300": {
+           "value": "#82c26a",
+           "type": "color",
+           "darkContrast": true           
+         },
+         "400": {
+           "value": "#68b54a",
+           "type": "color",
+           "darkContrast": true       
+         },
+         "500": {
+           "value": "#4da82a",
+           "type": "color",
+           "darkContrast": false       
+         },
+         "600": {
+           "value": "#46a025",
+           "type": "color",
+           "darkContrast": false       
+         },
+         "700": {
+           "value": "#3d971f",
+           "type": "color",
+           "darkContrast": false       
+         },
+         "800": {
+           "value": "#348d19",
+           "type": "color",
+           "darkContrast": false       
+         },
+         "900": {
+           "value": "#257d0f",
+           "type": "color",
+           "darkContrast": false       
+         },
+         "A100": {
+          "value": "#bcffaf",
+           "type": "color",
+           "darkContrast": true     
+         },
+         "A200": {
+            "value": "#91ff7c",
+           "type": "color",
+           "darkContrast": true     
+         },
+         "A400": {
+          "value": "#67ff49",
+           "type": "color",
+           "darkContrast": true     
+         },
+         "A700": {
+           "value": "#51ff30",
+           "type": "color",
+           "darkContrast": true     
+         }
       }
     }
   }
