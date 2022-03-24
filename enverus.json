@@ -1,6 +1,78 @@
 {
   "global": {
     "colors": {
+      "red": {
+        "50": {
+             "value": "#fee8e7",
+             "type": "color",
+             "darkContrast": true
+          },
+          "100": {
+             "value": "#fcc7c3",
+             "type": "color",
+             "darkContrast": true
+          },
+          "200": {
+            "value": "#faa19b",
+            "type": "color",
+            "darkContrast": true
+          },
+          "300": {
+            "value": "#f77b72",
+            "type": "color",
+            "darkContrast": true           
+          },
+          "400": {
+            "value": "#f65f54",
+            "type": "color",
+            "darkContrast": true       
+          },
+          "500": {
+            "value": "#f44336",
+            "type": "color",
+            "darkContrast": false       
+          },
+          "600": {
+            "value": "#f33d30",
+            "type": "color",
+            "darkContrast": false       
+          },
+          "700": {
+            "value": "#f13429",
+            "type": "color",
+            "darkContrast": false       
+          },
+          "800": {
+            "value": "#ef2c22",
+            "type": "color",
+            "darkContrast": false       
+          },
+          "900": {
+            "value": "#ec1e16",
+            "type": "color",
+            "darkContrast": false       
+          },
+          "A100": {
+            "value": "#ffffff",
+            "type": "color",
+           "darkContrast": true     
+          },
+          "A200": {
+             "value": "#ffe9e9",
+            "type": "color",
+            "darkContrast": true     
+          },
+          "A400": {
+           "value": "#ffb8b6",
+            "type": "color",
+            "darkContrast": true     
+          },
+          "A700": {
+            "value": "#ff9f9c",
+            "type": "color",
+            "darkContrast": true     
+          }
+      },
        "green": {
           "50": {
             "value": "#eaf5e5",
