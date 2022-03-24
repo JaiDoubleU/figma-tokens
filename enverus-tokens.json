@@ -1329,7 +1329,7 @@
     "button": {
       "primary": {
         "bg": {
-          "value": "{colors.green.300}",
+          "value": "{colors.green.200}",
           "type": "color"
         },
         "fg": {
