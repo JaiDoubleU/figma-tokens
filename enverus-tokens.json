@@ -1,6 +1,6 @@
 {
   "global": {
-    "colors": {
+    "palette": {
       "red": {
         "50": {
           "value": "#ffebee",
