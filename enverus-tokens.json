@@ -1,105 +1,107 @@
 {
   "global": {
-    "brandColors": {
-      "primary": {
-        "value": "#56bc2f",
-        "type": "other"
+    "colors": {
+      "brandColors": {
+        "primary": {
+          "value": "#56bc2f",
+          "type": "other"
+        },
+        "primaryDark": {
+          "value": "#3c8321",
+          "type": "other"
+        },
+        "primaryLight": {
+          "value": "#a0ef6e",
+          "type": "other"
+        }
       },
-      "primaryDark": {
-        "value": "#3c8321",
-        "type": "other"
+      "contextColors": {
+        "Danger": {
+          "value": "#ff5444",
+          "type": "other"
+        },
+        "DangerDark": {
+          "value": "#dd301d",
+          "type": "other"
+        },
+        "DangerLight": {
+          "value": "#ffd4d1",
+          "type": "other"
+        },
+        "Info": {
+          "value": "#329dff",
+          "type": "other"
+        },
+        "InfoDark": {
+          "value": "#006cff",
+          "type": "other"
+        },
+        "InfoLight": {
+          "value": "#d9edff",
+          "type": "other"
+        },
+        "Success": {
+          "value": "#56bc2f",
+          "type": "other"
+        },
+        "SuccessDark": {
+          "value": "#3c8321",
+          "type": "other"
+        },
+        "SuccessLight": {
+          "value": "#dff1d8",
+          "type": "other"
+        },
+        "Warning": {
+          "value": "#ffba00",
+          "type": "other"
+        },
+        "WarningDark": {
+          "value": "#986f00",
+          "type": "other"
+        },
+        "WarningLight": {
+          "value": "#ffeec2",
+          "type": "other"
+        }
       },
-      "primaryLight": {
-        "value": "#a0ef6e",
-        "type": "other"
-      }
-    },
-    "contextColors": {
-      "Danger": {
-        "value": "#ff5444",
-        "type": "other"
-      },
-      "DangerDark": {
-        "value": "#dd301d",
-        "type": "other"
-      },
-      "DangerLight": {
-        "value": "#ffd4d1",
-        "type": "other"
-      },
-      "Info": {
-        "value": "#329dff",
-        "type": "other"
-      },
-      "InfoDark": {
-        "value": "#006cff",
-        "type": "other"
-      },
-      "InfoLight": {
-        "value": "#d9edff",
-        "type": "other"
-      },
-      "Success": {
-        "value": "#56bc2f",
-        "type": "other"
-      },
-      "SuccessDark": {
-        "value": "#3c8321",
-        "type": "other"
-      },
-      "SuccessLight": {
-        "value": "#dff1d8",
-        "type": "other"
-      },
-      "Warning": {
-        "value": "#ffba00",
-        "type": "other"
-      },
-      "WarningDark": {
-        "value": "#986f00",
-        "type": "other"
-      },
-      "WarningLight": {
-        "value": "#ffeec2",
-        "type": "other"
-      }
-    },
-    "accentColors": {
-      "Blue": {
-        "value": "#247c96",
-        "type": "other"
-      },
-      "Blue Dark": {
-        "value": "#1a5a6d",
-        "type": "other"
-      },
-      "Blue Light": {
-        "value": "#5abbd7",
-        "type": "other"
-      },
-      "Orange": {
-        "value": "#f79649",
-        "type": "other"
-      },
-      "Orange Dark": {
-        "value": "#d64000",
-        "type": "other"
-      },
-      "Orange Light": {
-        "value": "#fabc8a",
-        "type": "other"
-      },
-      "Purple Light": {
-        "value": "#ead9fa",
-        "type": "other"
-      },
-      "Purple": {
-        "value": "#c79bf2",
-        "type": "other"
-      },
-      "Purple Dark": {
-        "value": "#7d3cbd",
-        "type": "other"
+      "accentColors": {
+        "Blue": {
+          "value": "#247c96",
+          "type": "other"
+        },
+        "Blue Dark": {
+          "value": "#1a5a6d",
+          "type": "other"
+        },
+        "Blue Light": {
+          "value": "#5abbd7",
+          "type": "other"
+        },
+        "Orange": {
+          "value": "#f79649",
+          "type": "other"
+        },
+        "Orange Dark": {
+          "value": "#d64000",
+          "type": "other"
+        },
+        "Orange Light": {
+          "value": "#fabc8a",
+          "type": "other"
+        },
+        "Purple Light": {
+          "value": "#ead9fa",
+          "type": "other"
+        },
+        "Purple": {
+          "value": "#c79bf2",
+          "type": "other"
+        },
+        "Purple Dark": {
+          "value": "#7d3cbd",
+          "type": "other"
+        }
       }
     },
     "palette": {
