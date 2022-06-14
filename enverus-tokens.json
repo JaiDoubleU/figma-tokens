@@ -1,5 +1,35 @@
 {
   "global": {
+    "brandColors": {
+      "primary": "#56bc2f",
+      "primaryDark": "#3c8321",
+      "primaryLight": "#a0ef6e"    
+    },
+    "contextColors": {
+      "Danger": "#ff5444",
+      "DangerDark": "#dd301d",
+      "DangerLight": "#ffd4d1",
+      "Info": "#329dff",
+      "InfoDark": "#006cff",
+      "InfoLight": "#d9edff",
+      "Success": "#56bc2f",
+      "SuccessDark": "#3c8321",
+      "SuccessLight": "#dff1d8",
+      "Warning": "#ffba00",
+      "WarningDark": "#986f00",
+      "WarningLight": "#ffeec2"
+    },
+    "accentColors":{
+        "Blue": "#247c96",
+        "Blue Dark": "#1a5a6d",
+        "Blue Light": "#5abbd7",
+        "Orange": "#f79649",
+        "Orange Dark": "#d64000",
+        "Orange Light": "#fabc8a",
+        "Purple Light": "#ead9fa",
+        "Purple": "#c79bf2",
+        "Purple Dark": "#7d3cbd"
+    },
     "palette": {
       "red": {
         "50": {
