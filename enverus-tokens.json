@@ -1,7 +1,7 @@
 {
   "global": {
     "colors": {
-      "brandColors": {
+      "branding": {
         "primary": {
           "value": "#56bc2f",
           "type": "other"
@@ -15,16 +15,16 @@
           "type": "other"
         }
       },
-      "contextColors": {
+      "contextual": {
         "Danger": {
           "value": "#ff5444",
           "type": "other"
         },
-        "DangerDark": {
+        "Danger Dark": {
           "value": "#dd301d",
           "type": "other"
         },
-        "DangerLight": {
+        "Danger Light": {
           "value": "#ffd4d1",
           "type": "other"
         },
@@ -32,11 +32,11 @@
           "value": "#329dff",
           "type": "other"
         },
-        "InfoDark": {
+        "Info Dark": {
           "value": "#006cff",
           "type": "other"
         },
-        "InfoLight": {
+        "Info Light": {
           "value": "#d9edff",
           "type": "other"
         },
@@ -44,11 +44,11 @@
           "value": "#56bc2f",
           "type": "other"
         },
-        "SuccessDark": {
+        "Success Dark": {
           "value": "#3c8321",
           "type": "other"
         },
-        "SuccessLight": {
+        "Success Light": {
           "value": "#dff1d8",
           "type": "other"
         },
@@ -56,16 +56,16 @@
           "value": "#ffba00",
           "type": "other"
         },
-        "WarningDark": {
+        "Warning Dark": {
           "value": "#986f00",
           "type": "other"
         },
-        "WarningLight": {
+        "Warning Light": {
           "value": "#ffeec2",
           "type": "other"
         }
       },
-      "accentColors": {
+      "accents": {
         "Blue": {
           "value": "#247c96",
           "type": "other"
