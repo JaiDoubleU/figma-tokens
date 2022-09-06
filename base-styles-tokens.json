@@ -875,7 +875,25 @@
       }
     }
   },
-  "Light": {},
+  "Light": {
+    "primary": {
+      "light": {
+        "value": "{colors.green.40}",
+        "type": "color",
+        "description": "#85d068"
+      },
+      "default": {
+        "value": "{colors.primary.default}",
+        "type": "color",
+        "description": "#56bc2f"
+      },
+      "dark": {
+        "value": "{colors.green.60}",
+        "type": "color",
+        "description": "#3c8321"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
