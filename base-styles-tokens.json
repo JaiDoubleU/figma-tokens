@@ -1,18 +1,6 @@
 {
   "global": {
     "colors": {
-      "neutrals": {
-        "white": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "white"
-        },
-        "black": {
-          "value": "#000000",
-          "type": "color",
-          "description": "black"
-        }
-      },
       "teal": {
         "10": {
           "value": "#e4f7f6",
@@ -764,6 +752,10 @@
   "Dark": {
     "colors": {
       "neutrals": {
+        "0": {
+          "value": "#ffffff",
+          "type": "color"
+        },
         "1": {
           "value": "{colors.gray.10}",
           "type": "color"
@@ -812,6 +804,10 @@
           "value": "{colors.gray.100}",
           "type": "color",
           "description": "#242325"
+        },
+        "11": {
+          "value": "#000000",
+          "type": "color"
         }
       },
       "primary": {
@@ -949,12 +945,71 @@
             "description": "#7d3cbd"
           }
         }
+      },
+      "buttons": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{colors.primary.dark}",
+              "type": "color",
+              "description": "button bg default state"
+            },
+            "hover": {
+              "value": "{colors.primary.default}",
+              "type": "color",
+              "description": "button bg hover state"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.primary.dark}",
+              "type": "color",
+              "description": "button bg default state"
+            },
+            "hover": {
+              "value": "{colors.primary.default}",
+              "type": "color",
+              "description": "button bg hover state"
+            }
+          }
+        },
+        "default": {
+          "bg": {
+            "default": {
+              "value": "{colors.neutrals.7}",
+              "type": "color",
+              "description": "button default bg"
+            },
+            "hover": {
+              "value": "{colors.neutrals.8}",
+              "type": "color",
+              "description": "button default hover bg"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.neutrals.6}",
+              "type": "color",
+              "description": "button default border"
+            },
+            "hover": {
+              "value": "{colors.neutrals.8}",
+              "type": "color",
+              "description": "button default hover border"
+            }
+          }
+        }
       }
     }
   },
   "Light": {
     "colors": {
       "neutrals": {
+        "0": {
+          "value": "#000",
+          "type": "color",
+          "description": "#242325"
+        },
         "1": {
           "value": "{colors.gray.100}",
           "type": "color",
@@ -1002,6 +1057,10 @@
         },
         "10": {
           "value": "{colors.gray.10}",
+          "type": "color"
+        },
+        "11": {
+          "value": "#ffffff",
           "type": "color"
         }
       },
@@ -1139,6 +1198,64 @@
             "value": "{colors.purple.70}",
             "type": "color",
             "description": "#7d3cbd"
+          }
+        }
+      },
+      "buttons": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{colors.primary.light}",
+              "type": "color",
+              "description": "button bg default state"
+            },
+            "hover": {
+              "value": "{colors.primary.default}",
+              "type": "color",
+              "description": "button bg hover state"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.primary.light}",
+              "type": "color",
+              "description": "button bg default state"
+            },
+            "hover": {
+              "value": "{colors.primary.default}",
+              "type": "color",
+              "description": "button bg hover state"
+            }
+          },
+          "text": {
+            "value": "{colors.neutrals.0}",
+            "type": "color"
+          }
+        },
+        "default": {
+          "bg": {
+            "default": {
+              "value": "{colors.neutrals.7}",
+              "type": "color",
+              "description": "button default bg"
+            },
+            "hover": {
+              "value": "{colors.neutrals.9}",
+              "type": "color",
+              "description": "button default hover bg"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.neutrals.9}",
+              "type": "color",
+              "description": "button default border"
+            },
+            "hover": {
+              "value": "{colors.neutrals.5}",
+              "type": "color",
+              "description": "button default hover border"
+            }
           }
         }
       }
