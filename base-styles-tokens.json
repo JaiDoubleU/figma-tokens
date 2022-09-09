@@ -1,15 +1,17 @@
 {
   "global": {
     "colors": {
-      "white": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "white"
-      },
-      "black": {
-        "value": "#000000",
-        "type": "color",
-        "description": "black"
+      "neutrals": {
+        "white": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "white"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color",
+          "description": "black"
+        }
       },
       "teal": {
         "10": {
@@ -677,6 +679,86 @@
           "description": "#242325"
         }
       }
+    },
+    "fontFamily": {
+      "Roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "Roboto Font Family"
+      }
+    },
+    "fontWeight": {
+      "light": {
+        "value": "300",
+        "type": "fontWeights",
+        "description": "Light Font Weight"
+      },
+      "regular": {
+        "value": "400",
+        "type": "fontWeights",
+        "description": "Default (Regular) Font Weight"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights",
+        "description": "Medium Font Weight"
+      }
+    },
+    "fontSize": {
+      "default": {
+        "value": "14",
+        "type": "fontSizes",
+        "description": "Default font size"
+      },
+      "small": {
+        "value": "12",
+        "type": "fontSizes",
+        "description": "Small Font Size"
+      },
+      "large": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "large font size"
+      }
+    },
+    "typography": {
+      "default": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.default}",
+          "lineHeight": "{lineHeight.default}"
+        },
+        "type": "typography",
+        "description": "default fonts"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{fontFamily.Roboto}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.default}",
+          "fontSize": "{fontSize.large}"
+        },
+        "type": "typography",
+        "description": "large fonts"
+      }
+    },
+    "lineHeight": {
+      "default": {
+        "value": "1.4",
+        "type": "lineHeights",
+        "description": "default line height"
+      }
+    },
+    "radius": {
+      "default": {
+        "value": "3px",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "50px",
+        "type": "borderRadius"
+      }
     }
   },
   "Dark": {
@@ -764,7 +846,7 @@
           "description": "#8f0e0e"
         }
       },
-      "accent": {
+      "accents": {
         "blue": {
           "light": {
             "value": "{colors.sky.20}",
@@ -818,11 +900,6 @@
         }
       },
       "neutrals": {
-        "0": {
-          "value": "{colors.white}",
-          "type": "color",
-          "description": "#ffffff"
-        },
         "1": {
           "value": "{colors.gray.10}",
           "type": "color"
@@ -891,6 +968,57 @@
         "value": "{colors.green.60}",
         "type": "color",
         "description": "#3c8321"
+      }
+    },
+    "neutrals": {
+      "1": {
+        "value": "{colors.gray.100}",
+        "type": "color",
+        "description": "#242325"
+      },
+      "2": {
+        "value": "{colors.gray.90}",
+        "type": "color",
+        "description": "#302f32"
+      },
+      "3": {
+        "value": "{colors.gray.80}",
+        "type": "color",
+        "description": "#48464a"
+      },
+      "4": {
+        "value": "{colors.gray.70}",
+        "type": "color",
+        "description": "#605e63"
+      },
+      "5": {
+        "value": "{colors.gray.60}",
+        "type": "color",
+        "description": "#78757c"
+      },
+      "6": {
+        "value": "{colors.gray.50}",
+        "type": "color",
+        "description": "#939196"
+      },
+      "7": {
+        "value": "{colors.gray.40}",
+        "type": "color",
+        "description": "#aeacb0"
+      },
+      "8": {
+        "value": "{colors.gray.30}",
+        "type": "color",
+        "description": "#c9c8cb"
+      },
+      "9": {
+        "value": "{colors.gray.20}",
+        "type": "color",
+        "description": "#d7d6d8"
+      },
+      "10": {
+        "value": "{colors.gray.10}",
+        "type": "color"
       }
     }
   },
