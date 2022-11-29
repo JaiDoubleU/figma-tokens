@@ -666,6 +666,16 @@
           "type": "color",
           "description": "#242325"
         }
+      },
+      "neutral": {
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        }
       }
     },
     "fontFamily": {
@@ -753,7 +763,7 @@
     "colors": {
       "neutrals": {
         "0": {
-          "value": "#ffffff",
+          "value": "{colors.neutral.white}",
           "type": "color"
         },
         "1": {
@@ -806,7 +816,7 @@
           "description": "#242325"
         },
         "11": {
-          "value": "#000000",
+          "value": "{colors.neutral.black}",
           "type": "color"
         }
       },
